@@ -33,7 +33,7 @@ client.once("ready", () => {
 
 			const embed = new MessageEmbed()
 				.setColor("RANDOM")
-				.setDescription(`**Period**: A${now.getFullYear()}${now.getMonth()}${now.getDate()}\n**Time**: <t:${~~(now.getTime() / 1000)}>\n**Draw Number**: ${rand_num}`\n**Reward**: 100 WETH)
+				.setDescription(`**Period**: A${now.getFullYear()}${now.getMonth()}${now.getDate()}\n**Time**: <t:${~~(now.getTime() / 1000)}>\n**Draw Number**: ${rand_num}``\n**Reward**: 100 WETH`)
 				.setImage("attachment://globallottery_winner.jpeg")
 				.setTimestamp();
 			// @ts-ignore
