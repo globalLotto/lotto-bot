@@ -13,7 +13,7 @@
   "version": "1.0.0",
   "description": "Global Lotto Discord bot",
   "main": "index.js",
-  "engine": {
+  "engines": {
   "node": "16.6"
   },
   "scripts": {
