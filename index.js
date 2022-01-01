@@ -11,7 +11,7 @@ const { appendFileSync } = require("fs");
 client.once("ready", () => {
 	console.log(`Bot is up and ready! (${client.user.tag})`);
 	const channel = client.channels.cache.get("922457577105817681");
-	scheduleJob("0 0 12 * * ?", async () => {
+	scheduleJob("0 0 20 * * ?", async () => {
 		try {
 			const now = new Date(Date.now());
 
